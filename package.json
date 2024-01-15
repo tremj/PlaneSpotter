@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "flightradarapi": "^1.3.24"
+  }
+}

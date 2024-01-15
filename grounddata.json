@@ -1,1 +1,798 @@
-{"item": {"current": 100, "total": 137, "limit": 100}, "page": {"current": 1, "total": 2}, "timestamp": 1703264280, "data": [{"flight": {"identification": {"id": "3356b0a1", "row": 5450587607, "number": {"default": "AC7995", "alternative": "QK7995"}, "callsign": "JZA7995", "codeshare": null}, "aircraft": {"model": {"code": "E75S", "text": "Embraer E175SU"}, "registration": "C-FRQW", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C02E9B", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703264009, "hoursDiff": 0.08, "timeDiff": 282}, "owner": {"name": "QK", "code": {"iata": "QK", "icao": "JZA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/QK_JZA.png"}, "airline": {"name": "Air Canada Express", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "3356b304", "row": 5450226105, "number": {"default": "AA5717", "alternative": "PT5717"}, "callsign": "PDT5717", "codeshare": null}, "aircraft": {"model": {"code": "E145", "text": "Embraer ERJ-145LR"}, "registration": "N672AE", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "A8E32B", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263837, "hoursDiff": 0.13, "timeDiff": 454}, "owner": {"name": "PT", "code": {"iata": "PT", "icao": "PDT"}, "logo": null}, "airline": {"name": "American Eagle", "code": {"iata": "AA", "icao": "AAL"}, "short": "American Airlines"}}}, {"flight": {"identification": {"id": "3356abf1", "row": 5450275324, "number": {"default": "DL5037", "alternative": "9E5037"}, "callsign": "EDV5037", "codeshare": null}, "aircraft": {"model": {"code": "CRJ9", "text": "Mitsubishi CRJ-900LR"}, "registration": "N272PQ", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "A2AF3E", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263644, "hoursDiff": 0.18, "timeDiff": 647}, "owner": {"name": "9E", "code": {"iata": "9E", "icao": "EDV"}, "logo": null}, "airline": {"name": "Delta Connection", "code": {"iata": "DL", "icao": "DAL"}, "short": "Delta Air Lines"}}}, {"flight": {"identification": {"id": "3356bf0b", "row": 5450587583, "number": {"default": "AC7958", "alternative": "QK7958"}, "callsign": "JZA7958", "codeshare": null}, "aircraft": {"model": {"code": "DH8D", "text": "De Havilland Canada Dash 8-400"}, "registration": "C-GGMI", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C055C1", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263622, "hoursDiff": 0.19, "timeDiff": 669}, "owner": {"name": "QK", "code": {"iata": "QK", "icao": "JZA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/QK_JZA.png"}, "airline": {"name": "Air Canada Express", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "33568032", "row": 5450588182, "number": {"default": "AC8848", "alternative": "QK8848"}, "callsign": "JZA848", "codeshare": null}, "aircraft": {"model": {"code": "CRJ9", "text": "Mitsubishi CRJ-900LR"}, "registration": "C-FJQZ", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C0197E", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263548, "hoursDiff": 0.21, "timeDiff": 743}, "owner": {"name": "QK", "code": {"iata": "QK", "icao": "JZA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/QK_JZA.png"}, "airline": {"name": "Air Canada Express", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "3355c14a", "row": 5450585730, "number": {"default": "AC73", "alternative": null}, "callsign": "ACA73", "codeshare": null}, "aircraft": {"model": {"code": "A333", "text": "Airbus A330-343"}, "registration": "C-GFAF", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C051E2", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263435, "hoursDiff": 0.24, "timeDiff": 856}, "owner": {"name": "AC", "code": {"iata": "AC", "icao": "ACA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"}, "airline": {"name": "Air Canada", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "3356a9d6", "row": 5450275278, "number": {"default": "DL5017", "alternative": "9E5017"}, "callsign": "EDV5017", "codeshare": null}, "aircraft": {"model": {"code": "CRJ9", "text": "Mitsubishi CRJ-900LR"}, "registration": "N902XJ", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "AC78B0", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263323, "hoursDiff": 0.27, "timeDiff": 968}, "owner": {"name": "9E", "code": {"iata": "9E", "icao": "EDV"}, "logo": null}, "airline": {"name": "Delta Connection", "code": {"iata": "DL", "icao": "DAL"}, "short": "Delta Air Lines"}}}, {"flight": {"identification": {"id": "335685d4", "row": 5450228126, "number": {"default": "AC751", "alternative": null}, "callsign": "ACA751", "codeshare": null}, "aircraft": {"model": {"code": "BCS3", "text": "Airbus A220-300"}, "registration": "C-GVUH", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C07E2C", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263211, "hoursDiff": 0.3, "timeDiff": 1080}, "owner": {"name": "AC", "code": {"iata": "AC", "icao": "ACA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"}, "airline": {"name": "Air Canada", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "3356a7df", "row": 5450587980, "number": {"default": "AC8635", "alternative": "QK8635"}, "callsign": "JZA635", "codeshare": null}, "aircraft": {"model": {"code": "E75S", "text": "Embraer E175SU"}, "registration": "C-FEJP", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C00B8A", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703263154, "hoursDiff": 0.32, "timeDiff": 1137}, "owner": {"name": "QK", "code": {"iata": "QK", "icao": "JZA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/QK_JZA.png"}, "airline": {"name": "Air Canada Express", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "33569df7", "row": 5450363716, "number": {"default": "PD113", "alternative": null}, "callsign": "POE113", "codeshare": null}, "aircraft": {"model": {"code": "E295", "text": "Embraer E195-E2"}, "registration": "C-GKQV", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C060C6", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703262310, "hoursDiff": 0.55, "timeDiff": 1981}, "owner": {"name": "PD", "code": {"iata": "PD", "icao": "POE"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/PD_POE.png"}, "airline": {"name": "Porter", "code": {"iata": "P3", "icao": "PTR"}, "short": "Porter"}}}, {"flight": {"identification": {"id": "33561395", "row": 5450228269, "number": {"default": "AC1207", "alternative": null}, "callsign": "ACA1207", "codeshare": null}, "aircraft": {"model": {"code": "BCS3", "text": "Airbus A220-300"}, "registration": "C-GJXN", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C05ED0", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703262121, "hoursDiff": 0.6, "timeDiff": 2170}, "owner": {"name": "AC", "code": {"iata": "AC", "icao": "ACA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"}, "airline": {"name": "Air Canada", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "33568c57", "row": 5450586044, "number": {"default": "AC406", "alternative": null}, "callsign": "ACA406", "codeshare": null}, "aircraft": {"model": {"code": "A320", "text": "Airbus A320-211"}, "registration": "C-FNVU", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C0248B", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703262020, "hoursDiff": 0.63, "timeDiff": 2271}, "owner": {"name": "AC", "code": {"iata": "AC", "icao": "ACA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"}, "airline": {"name": "Air Canada", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "33564eec", "row": 5450228329, "number": {"default": "AC1635", "alternative": "RV1635"}, "callsign": "ROU1635", "codeshare": null}, "aircraft": {"model": {"code": "A321", "text": "Airbus A321-211"}, "registration": "C-GHPD", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C058AE", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703261896, "hoursDiff": 0.67, "timeDiff": 2395}, "owner": {"name": "RV", "code": {"iata": "RV", "icao": "ROU"}, "logo": null}, "airline": {"name": "Air Canada Rouge", "code": {"iata": "RV", "icao": "ROU"}, "short": "Air Canada Rouge"}}}, {"flight": {"identification": {"id": "33559f19", "row": 5450228201, "number": {"default": "AC875", "alternative": null}, "callsign": "ACA875", "codeshare": null}, "aircraft": {"model": {"code": "A333", "text": "Airbus A330-343"}, "registration": "C-GKUH", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C06120", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703261773, "hoursDiff": 0.7, "timeDiff": 2518}, "owner": {"name": "AC", "code": {"iata": "AC", "icao": "ACA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"}, "airline": {"name": "Air Canada", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "3356bf51", "row": 5450587611, "number": {"default": "AC8004", "alternative": "QK8004"}, "callsign": "JZA4", "codeshare": null}, "aircraft": {"model": {"code": "DH8D", "text": "De Havilland Canada Dash 8-400"}, "registration": "C-GXJZ", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C08268", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703261660, "hoursDiff": 0.73, "timeDiff": 2631}, "owner": {"name": "QK", "code": {"iata": "QK", "icao": "JZA"}, "logo": "https://images.flightradar24.com/assets/airlines/logotypes/QK_JZA.png"}, "airline": {"name": "Air Canada Express", "code": {"iata": "AC", "icao": "ACA"}, "short": "Air Canada"}}}, {"flight": {"identification": {"id": "33566dd1", "row": 5454009989, "number": {"default": "QUE10", "alternative": null}, "callsign": "QUE10", "codeshare": null}, "aircraft": {"model": {"code": "CL60", "text": "Bombardier Challenger 601-3R"}, "registration": "C-GURG", "country": {"id": null, "name": null, "alpha2": null, "alpha3": null}, "hex": "C07B39", "restricted": false, "serialNo": "N/A", "age": {"availability": false}, "availability": {"serialNo": false, "age": false}, "onGroundUpdate": 1703261027, "hoursDiff": 0.91, "timeDiff": 3264}, "owner": {"name": null, "code": {"iata": null, "icao": "QUE"}, "logo": null}, "airline": {"name": "Canada - Quebec Service Aerien Gouvernemental", "code": {"iata": null, "icao": "QUE"}, "short": "Gouvernement du Quebec"}}}]}
+{
+   "item": {
+      "current": 100,
+      "total": 142,
+      "limit": 100
+   },
+   "page": {
+      "current": 1,
+      "total": 2
+   },
+   "timestamp": 1703274660,
+   "data": [
+      {
+         "flight": {
+            "identification": {
+               "id": "3355fbe3",
+               "row": 5450586655,
+               "number": {
+                  "default": "AC885",
+                  "alternative": null
+               },
+               "callsign": "ACA885",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "A333",
+                  "text": "Airbus A330-343"
+               },
+               "registration": "C-GFAJ",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C051E6",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703274192,
+               "hoursDiff": 0.15,
+               "timeDiff": 522
+            },
+            "owner": {
+               "name": "AC",
+               "code": {
+                  "iata": "AC",
+                  "icao": "ACA"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"
+            },
+            "airline": {
+               "name": "Air Canada",
+               "code": {
+                  "iata": "AC",
+                  "icao": "ACA"
+               },
+               "short": "Air Canada"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3355f038",
+               "row": 5450228212,
+               "number": {
+                  "default": "AC895",
+                  "alternative": null
+               },
+               "callsign": "ACA895",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "A333",
+                  "text": "Airbus A330-343"
+               },
+               "registration": "C-GKUG",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C0611F",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703274062,
+               "hoursDiff": 0.18,
+               "timeDiff": 652
+            },
+            "owner": {
+               "name": "AC",
+               "code": {
+                  "iata": "AC",
+                  "icao": "ACA"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"
+            },
+            "airline": {
+               "name": "Air Canada",
+               "code": {
+                  "iata": "AC",
+                  "icao": "ACA"
+               },
+               "short": "Air Canada"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3356bc9b",
+               "row": 5450586974,
+               "number": {
+                  "default": "AC1883",
+                  "alternative": "RV1883"
+               },
+               "callsign": "ROU1883",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "A321",
+                  "text": "Airbus A321-211"
+               },
+               "registration": "C-FJOK",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C0193B",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703273945,
+               "hoursDiff": 0.21,
+               "timeDiff": 769
+            },
+            "owner": {
+               "name": "RV",
+               "code": {
+                  "iata": "RV",
+                  "icao": "ROU"
+               },
+               "logo": null
+            },
+            "airline": {
+               "name": "Air Canada Rouge",
+               "code": {
+                  "iata": "RV",
+                  "icao": "ROU"
+               },
+               "short": "Air Canada Rouge"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3356dcef",
+               "row": 5450421353,
+               "number": {
+                  "default": "TS821",
+                  "alternative": null
+               },
+               "callsign": "TSC821",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "A321",
+                  "text": "Airbus A321-211"
+               },
+               "registration": "C-GEZJ",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C051CC",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703273844,
+               "hoursDiff": 0.24,
+               "timeDiff": 870
+            },
+            "owner": {
+               "name": "TS",
+               "code": {
+                  "iata": "TS",
+                  "icao": "TSC"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/TS_TSC.png"
+            },
+            "airline": {
+               "name": "Air Transat",
+               "code": {
+                  "iata": "TS",
+                  "icao": "TSC"
+               },
+               "short": "Air Transat"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3356d4c9",
+               "row": 5450489650,
+               "number": {
+                  "default": "Y9764",
+                  "alternative": null
+               },
+               "callsign": "DAT764",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "B38M",
+                  "text": "Boeing 737 MAX 8"
+               },
+               "registration": "C-FULJ",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C035F8",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703273661,
+               "hoursDiff": 0.29,
+               "timeDiff": 1053
+            },
+            "owner": {
+               "name": "Y9",
+               "code": {
+                  "iata": "Y9",
+                  "icao": "DAT"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/Y9_DAT.png"
+            },
+            "airline": {
+               "name": "Lynx Air",
+               "code": {
+                  "iata": "Y9",
+                  "icao": "DAT"
+               },
+               "short": "Lynx Air"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3356ccc0",
+               "row": 5450476577,
+               "number": {
+                  "default": "WG2549",
+                  "alternative": null
+               },
+               "callsign": "SWG2549",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "B738",
+                  "text": "Boeing 737-8K5"
+               },
+               "registration": "C-FYSD",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C04138",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703273380,
+               "hoursDiff": 0.37,
+               "timeDiff": 1334
+            },
+            "owner": {
+               "name": "WG",
+               "code": {
+                  "iata": "WG",
+                  "icao": "SWG"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/WG_SWG.png"
+            },
+            "airline": {
+               "name": "Sunwing Airlines",
+               "code": {
+                  "iata": "WG",
+                  "icao": "SWG"
+               },
+               "short": "Sunwing Airlines"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "335728df",
+               "row": 5450275552,
+               "number": {
+                  "default": "DL5091",
+                  "alternative": "9E5091"
+               },
+               "callsign": "EDV5091",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "CRJ9",
+                  "text": "Mitsubishi CRJ-900LR"
+               },
+               "registration": "N937XJ",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "AD01C0",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703273155,
+               "hoursDiff": 0.43,
+               "timeDiff": 1559
+            },
+            "owner": {
+               "name": "9E",
+               "code": {
+                  "iata": "9E",
+                  "icao": "EDV"
+               },
+               "logo": null
+            },
+            "airline": {
+               "name": "Delta Connection",
+               "code": {
+                  "iata": "DL",
+                  "icao": "DAL"
+               },
+               "short": "Delta Air Lines"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "33572711",
+               "row": 5453712232,
+               "number": {
+                  "default": "AC2195",
+                  "alternative": null
+               },
+               "callsign": "ACA2195",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "BCS3",
+                  "text": "Airbus A220-300"
+               },
+               "registration": "C-GUPL",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C07B0A",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703272909,
+               "hoursDiff": 0.5,
+               "timeDiff": 1805
+            },
+            "owner": {
+               "name": "AC",
+               "code": {
+                  "iata": "AC",
+                  "icao": "ACA"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/AC_ACA.png"
+            },
+            "airline": {
+               "name": "Air Canada",
+               "code": {
+                  "iata": "AC",
+                  "icao": "ACA"
+               },
+               "short": "Air Canada"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "335741ac",
+               "row": 5450687062,
+               "number": {
+                  "default": "PB831",
+                  "alternative": null
+               },
+               "callsign": "PVL831",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "DH8D",
+                  "text": "De Havilland Canada Dash 8-400"
+               },
+               "registration": "C-GPNV",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C06DAC",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703272355,
+               "hoursDiff": 0.66,
+               "timeDiff": 2359
+            },
+            "owner": {
+               "name": "PB",
+               "code": {
+                  "iata": "PB",
+                  "icao": "PVL"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/PB_PVL.png"
+            },
+            "airline": {
+               "name": "PAL Airlines",
+               "code": {
+                  "iata": "PB",
+                  "icao": "PVL"
+               },
+               "short": "PAL Airlines"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "33569228",
+               "row": 5450586954,
+               "number": {
+                  "default": "AC1791",
+                  "alternative": "RV1791"
+               },
+               "callsign": "ROU1791",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "A319",
+                  "text": "Airbus A319-114"
+               },
+               "registration": "C-FYKW",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C0407B",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703272083,
+               "hoursDiff": 0.73,
+               "timeDiff": 2631
+            },
+            "owner": {
+               "name": "RV",
+               "code": {
+                  "iata": "RV",
+                  "icao": "ROU"
+               },
+               "logo": null
+            },
+            "airline": {
+               "name": "Air Canada Rouge",
+               "code": {
+                  "iata": "RV",
+                  "icao": "ROU"
+               },
+               "short": "Air Canada Rouge"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3356c9c1",
+               "row": 5450489908,
+               "number": {
+                  "default": "YN928",
+                  "alternative": null
+               },
+               "callsign": "CRQ928",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "DH8A",
+                  "text": "De Havilland Canada Dash 8-100"
+               },
+               "registration": "C-FDWO",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C00A37",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703272049,
+               "hoursDiff": 0.74,
+               "timeDiff": 2665
+            },
+            "owner": {
+               "name": "YN",
+               "code": {
+                  "iata": "YN",
+                  "icao": "CRQ"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/YN_CRQ.png"
+            },
+            "airline": {
+               "name": "Air Creebec",
+               "code": {
+                  "iata": "YN",
+                  "icao": "CRQ"
+               },
+               "short": "Air Creebec"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3356c03c",
+               "row": 5454045799,
+               "number": {
+                  "default": null,
+                  "alternative": null
+               },
+               "callsign": "RAG200",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "B732",
+                  "text": "Boeing 737-2S2C(A)"
+               },
+               "registration": "C-GXNR",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C082C8",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703271819,
+               "hoursDiff": 0.8,
+               "timeDiff": 2895
+            },
+            "owner": {
+               "name": "Glencore Canada",
+               "logo": null,
+               "code": {
+                  "iata": null,
+                  "icao": null
+               }
+            },
+            "airline": {
+               "name": "Glencore Canada",
+               "short": "Glencore Canada",
+               "code": {
+                  "iata": null,
+                  "icao": null
+               }
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "3355da1f",
+               "row": 5450421260,
+               "number": {
+                  "default": "TS435",
+                  "alternative": null
+               },
+               "callsign": "TSC435",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "A332",
+                  "text": "Airbus A330-243"
+               },
+               "registration": "C-GTSJ",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "C078B2",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703271601,
+               "hoursDiff": 0.86,
+               "timeDiff": 3113
+            },
+            "owner": {
+               "name": "TS",
+               "code": {
+                  "iata": "TS",
+                  "icao": "TSC"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/TS_TSC.png"
+            },
+            "airline": {
+               "name": "Air Transat",
+               "code": {
+                  "iata": "TS",
+                  "icao": "TSC"
+               },
+               "short": "Air Transat"
+            }
+         }
+      },
+      {
+         "flight": {
+            "identification": {
+               "id": "335722ec",
+               "row": 5450381681,
+               "number": {
+                  "default": "RJ5272",
+                  "alternative": null
+               },
+               "callsign": "RJA5272",
+               "codeshare": null
+            },
+            "aircraft": {
+               "model": {
+                  "code": "B788",
+                  "text": "Boeing 787-8 Dreamliner"
+               },
+               "registration": "JY-BAA",
+               "country": {
+                  "id": null,
+                  "name": null,
+                  "alpha2": null,
+                  "alpha3": null
+               },
+               "hex": "740821",
+               "restricted": false,
+               "serialNo": "N/A",
+               "age": {
+                  "availability": false
+               },
+               "availability": {
+                  "serialNo": false,
+                  "age": false
+               },
+               "onGroundUpdate": 1703271436,
+               "hoursDiff": 0.91,
+               "timeDiff": 3278
+            },
+            "owner": {
+               "name": "RJ",
+               "code": {
+                  "iata": "RJ",
+                  "icao": "RJA"
+               },
+               "logo": "https://images.flightradar24.com/assets/airlines/logotypes/RJ_RJA.png"
+            },
+            "airline": {
+               "name": "Royal Jordanian",
+               "code": {
+                  "iata": "RJ",
+                  "icao": "RJA"
+               },
+               "short": "Royal Jordanian"
+            }
+         }
+      }
+   ]
+}
