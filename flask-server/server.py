@@ -1,6 +1,9 @@
 from flask import Flask
-
+from FlightRadar24 import FlightRadar24API
 app = Flask(__name__)
+
+def gather_airports():
+    frapi = FlightRadar24API()
 
 # members api route
 @app.route("/members")
