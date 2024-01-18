@@ -1,10 +1,21 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, ReactDOM} from 'react'
 
 function App() {
 
-    const [data, setData] = useState([{}]) 
-    
+    class Search extends React.Component {
+        
 
+        render() {
+        return (
+            <form>
+                <label for="airCode">Airport (IATA) code</label>
+                <input type="airCode"></input>
+            </form>
+        )
+        }
+    } 
+
+    const [data, setData] = useState([{}]) 
     useEffect(() => {
         fetch("/members").then(
             res => res.json()
@@ -15,6 +26,9 @@ function App() {
             }
         )
     }, [])
+
+    const root = ReactDOM.createRoot(document.getElementById("root"))
+    root.render(<Search />)
 
     return (
         <div>

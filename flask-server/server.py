@@ -16,7 +16,6 @@ def get_flight_data(airportICAO):
     airport_details = fr_api.get_airport_details(airportICAO)['airport']['pluginData']['schedule']
     arrivalJSON = json.dumps(airport_details['arrivals'])
     departureJSON = json.dumps(airport_details['departures'])
-    groundJSON = json.dumps(airport_details['ground'])
 
     return arrivalJSON, departureJSON
 
