@@ -3,14 +3,12 @@ from FlightRadar24 import FlightRadar24API
 import json
 app = Flask(__name__)
 
-def gather_airports():
-    frapi = FlightRadar24API()
-
 # members api route
 @app.route("/members")
 def members():
     return {"members": ["Member 1", "Member 2", "Member 3"]}
 
+# flights api route
 @app.route("/flights")
 def get_flight_data(airportICAO):
     fr_api = FlightRadar24API()
