@@ -4,47 +4,48 @@ import axios from 'axios'
 function App() {
 
     class Search extends React.Component {
-        searchClick() {
-            const MyComponent = () => {
-                const [dataToSend, setDataToSend] = useState('')
-        
-                const setDataToBackend = async() => {
-                    try {
-                        const response = await axios.post('localhost:5000/flights', {
-                            airport: dataToSend,
-                        })
-                        console.log(response.data)
-                    } catch (error) {
-                        console.error('error sending data to backend: ', error)
-                    }
-                }
+        constructor(props) {
+            super(props)
+            this.state = {
+                dataToSend: ''
             }
+        }
+
+        sendDataToBackend = async () => {
+            try {
+                const response = await axios.post(
+                    '127.0.01:5000/flights', JSON.stringify({ 
+                        key: this.state.dataToSend 
+                    }),
+                {
+                    headers: {
+                        'Content-Type': 'application/json',
+                  },
+                }
+              );
+                console.log(response.data)
+            } catch (error) {
+                console.error('Error sending data to backend:', error)
+            }
+        }
+        
+        handleInputChange = (e) => {
+            this.setState({dataToSend : e.target.value})
         }
 
         render() {
         return (
             <form>
-                <label for="airCode">Airport (IATA) code</label>
-                <input type="airCode" value={dataToSend} onChange={(e) => setDataToSend(e.target.value)}></input>
-                <button onClick={setDataToBackend}>Search Flights</button>
+                <input 
+                    type="airCode" 
+                    value={this.state.dataToSend} 
+                    onChange={(e) => this.handleInputChange} 
+                />
+                <button onClick={this.sendDataToBackend}>Search Flights</button>
             </form>
         )
         }
-    } 
-
-    const [data, setData] = useState([{}]) 
-    useEffect(() => {
-        fetch("/members").then(
-            res => res.json()
-        ).then(
-            data => {
-                setData(data)
-                console.log(data)
-            }
-        )
-    }, [])
-
-    
+    }
 
     // const root = ReactDOM.createRoot(document.getElementById("root"))
     // root.render(<Search />)
