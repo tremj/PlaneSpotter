@@ -1,15 +1,32 @@
 import React, {useState, useEffect, ReactDOM} from 'react'
+import axios from 'axios'
 
 function App() {
 
     class Search extends React.Component {
+        searchClick() {
+            const MyComponent = () => {
+                const [dataToSend, setDataToSend] = useState('')
         
+                const setDataToBackend = async() => {
+                    try {
+                        const response = await axios.post('localhost:5000/flights', {
+                            airport: dataToSend,
+                        })
+                        console.log(response.data)
+                    } catch (error) {
+                        console.error('error sending data to backend: ', error)
+                    }
+                }
+            }
+        }
 
         render() {
         return (
             <form>
                 <label for="airCode">Airport (IATA) code</label>
-                <input type="airCode"></input>
+                <input type="airCode" value={dataToSend} onChange={(e) => setDataToSend(e.target.value)}></input>
+                <button onClick={setDataToBackend}>Search Flights</button>
             </form>
         )
         }
@@ -27,19 +44,15 @@ function App() {
         )
     }, [])
 
-    const root = ReactDOM.createRoot(document.getElementById("root"))
-    root.render(<Search />)
+    
+
+    // const root = ReactDOM.createRoot(document.getElementById("root"))
+    // root.render(<Search />)
 
     return (
         <div>
             
-            {(typeof data.members === 'undefined') ? (
-                <p>Loading...</p>
-            ) : (
-                data.members.map((member, i) => (
-                    <p key={i}>{member}</p>
-                ))
-            )}
+            <Search />
 
         </div>
     )

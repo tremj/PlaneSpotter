@@ -10,10 +10,10 @@ def members():
 
 # flights api route
 @app.route("/flights")
-def get_flight_data(airportICAO):
+def get_flight_data(airportIATA):
     fr_api = FlightRadar24API()
 
-    airport_details = fr_api.get_airport_details(airportICAO)['airport']['pluginData']['schedule']
+    airport_details = fr_api.get_airport_details(airportIATA)['airport']['pluginData']['schedule']
     arrivalJSON = json.dumps(airport_details['arrivals'])
     departureJSON = json.dumps(airport_details['departures'])
 
