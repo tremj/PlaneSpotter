@@ -10,7 +10,7 @@ def members():
     return {"members": ["Member 1", "Member 2", "Member 3"]}
 
 # flights api route
-@app.route("/flights", methods=['POST'])
+@app.route("/flights", methods=['GET', 'POST'])
 def get_flight_data():
     fr_api = FlightRadar24API()
 
