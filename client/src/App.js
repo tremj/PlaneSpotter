@@ -11,22 +11,29 @@ function App() {
             }
         }
 
-        sendDataToBackend = async () => {
-            try {
-                const response = await axios.post(
-                    '127.0.01:5000/flights', JSON.stringify({ 
-                        key: this.state.dataToSend 
-                    }),
-                {
-                    headers: {
-                        'Content-Type': 'application/json',
-                  },
-                }
-              );
-                console.log(response.data)
-            } catch (error) {
-                console.error('Error sending data to backend:', error)
+        postData = () => {
+            const apiURL = 'http://127.0.0.1:5000/flights'
+            const data = {
+                key: this.state.dataToSend
             }
+
+            const xhr = new XMLHttpRequest()
+            xhr.open('POST', apiURL, true)
+            xhr.setRequestHeader('Content-Type', 'application/json')
+            xhr.setRequestHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:3000/')
+
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        const responseData = JSON.parse(xhr.responseText)
+                        console.log('Success', responseData)
+                    } else {
+                        console.error('Error', xhr.statusText)
+                    }
+                }
+            }
+
+            xhr.send(JSON.stringify(data))
         }
         
         handleInputChange = (e) => {
@@ -35,14 +42,14 @@ function App() {
 
         render() {
         return (
-            <form>
-                <input 
-                    type="airCode" 
-                    value={this.state.dataToSend} 
-                    onChange={(e) => this.handleInputChange} 
+            <div>
+                <input
+                    type="text"
+                    value={this.state.dataToSend}
+                    onChange={this.handleInputChange}
                 />
-                <button onClick={this.sendDataToBackend}>Search Flights</button>
-            </form>
+                <button onClick={this.postData}>Search</button>
+            </div>
         )
         }
     }
