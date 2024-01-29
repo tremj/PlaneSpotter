@@ -13,6 +13,7 @@ function App() {
 
         postData = () => {
             const apiURL = 'http://127.0.0.1:5000/flights'
+
             const data = {
                 key: this.state.dataToSend
             }
@@ -54,8 +55,7 @@ function App() {
         }
     }
 
-    // const root = ReactDOM.createRoot(document.getElementById("root"))
-    // root.render(<Search />)
+
 
     return (
         <div>

@@ -14,27 +14,21 @@ def members():
 # flights api route
 @app.route("/flights", methods=['POST'])
 def get_flight_data():
-    progress = ""
     try:
         if request.method == "POST":
             fr_api = FlightRadar24API()
-            progress += "api call success \n"
 
             reactData = request.get_json()
-            progress += str(reactData) + '\n'
 
             airportIATA = str(reactData.get('key'))
-            progress += airportIATA + '\n'
 
             airport_details = fr_api.get_airport_details(airportIATA)['airport']['pluginData']['schedule']
-            progress += 'past getting data \n'
 
-            arrivalJSON = json.dumps(airport_details['arrivals'])
-            progress += 'loads \n'
+            flightsJSON = json.dumps(airport_details)
 
-            return jsonify({'arrivalData': arrivalJSON})
+            return jsonify({'flightData': flightsJSON})
     except Exception as e:
-        return jsonify({"error": str(e) + progress})
+        return jsonify({"error": str(e)})
     return jsonify({'nothing': 'happened'})
     
 
