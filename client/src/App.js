@@ -27,7 +27,7 @@ function App() {
                 if (xhr.readyState === 4) {
                     if (xhr.status === 200) {
                         const responseData = JSON.parse(xhr.responseText)
-                        console.log('Success', responseData)
+                        console.log(responseData)
                     } else {
                         console.error('Error', xhr.statusText)
                     }
@@ -50,12 +50,15 @@ function App() {
                     onChange={this.handleInputChange}
                 />
                 <button onClick={this.postData}>Search</button>
+                
             </div>
         )
         }
     }
 
+    // class Card extends React.Component {
 
+    // }
 
     return (
         <div>
